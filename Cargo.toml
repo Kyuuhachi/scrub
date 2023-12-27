@@ -1,0 +1,16 @@
+[package]
+name = "scrub"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Kyuuhachi <caagr98@gmail.com>"]
+description = "Remove span information to improve error messages"
+repository = "https://github.com/Kyuuhachi/scrub"
+license = "MIT OR Apache-2.0"
+keywords = ["macros"]
+categories = ["development-tools"]
+
+[lib]
+proc-macro = true
+
+[dependencies]

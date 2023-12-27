@@ -1,7 +1,9 @@
 macro_rules! b {
-	($e:expr) => { scrub::scrub! {
-		let () = $e;
-	} };
+	($e:expr) => {
+		scrub::scrub! {
+			let () = $e;
+		}
+	};
 }
 
 fn main() {

@@ -23,13 +23,13 @@ Now you can finally tell those callers whose fault it *really* is.
 
 ```
 error[E0308]: mismatched types
- --> examples/blameless.rs:9:2
-  |
-9 |     b!(A);
-  |     ^^^-^
-  |     |  |
-  |     |  this expression has type `A`
-  |     expected `A`, found `()`
+  --> examples/blameless.rs:11:2
+   |
+11 |     b!(A);
+   |     ^^^-^
+   |     |  |
+   |     |  this expression has type `A`
+   |     expected `A`, found `()`
 ```
 
 Due to using the `proc_macro_span` feature, this crate requires nightly.
